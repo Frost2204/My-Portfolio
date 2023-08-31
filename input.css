@@ -1,12 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-/* ------------------------------------------------------------- */
-
 #word{
   font-size: 80px;
   color: rgba(255, 0, 0, 0.733);
   font-weight: bolder;
+}
+
+.logo-first{
+  margin-left: 100px;
 }
 
 /* ------------------------------------------------------------- */
@@ -273,6 +272,10 @@ html{
      -ms-flex-order: -1;
      order: -1;
      cursor: pointer;
+   }
+
+   .dp{
+    border-radius: 50px;
    }
 
    
@@ -785,6 +788,7 @@ html{
      background-color: rgba(128, 128, 128, 0.16);
      -webkit-transition: all 300ms ease;
      transition: all 300ms ease;
+     user-select: none;
    }
    
    .features-wrapper:hover {
@@ -834,6 +838,7 @@ html{
      max-width: 80%;
      margin-right: auto;
      margin-left: auto;
+
    }
    
    .project-grid {
@@ -872,13 +877,13 @@ html{
      transition: -webkit-transform 800ms ease;
      transition: transform 800ms ease;
      transition: transform 800ms ease, -webkit-transform 800ms ease;
-   }
+    }
    
    .project-image:hover {
      box-shadow: 0 16px 25px 0 rgba(0, 0, 0, 0.69);
      -webkit-transform: scale(1.1);
      -ms-transform: scale(1.1);
-     transform: scale(1.1);
+     transform: scale(1.05);
    }
    
    .project-title {
@@ -3846,4 +3851,3 @@ html{
    .display-1-gnumob.order {
      text-shadow: 7px 7px 10px #000;
    }
-   
