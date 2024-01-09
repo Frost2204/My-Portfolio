@@ -1,4 +1,4 @@
-const words = ["Web ", "Game ", "Java "];
+const words = ["Web ", "Game ", "Java ", "Graphic  "];
 let index = 0;
 let charIndex = 0;
 let isDeleting = false;
